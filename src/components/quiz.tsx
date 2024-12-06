@@ -138,6 +138,12 @@ const Quiz = () => {
         <CardContent>
           {!showResults ? (
             <div className="space-y-6">
+              <div className="mb-6">
+                <img 
+                  src={`/scoopology/question-images/${currentQuestion}.webp`}
+                  className="rounded-lg mx-auto shadow-lg"
+                />
+              </div>
               <p className="text-lg mb-4">
                 {currentQuestion === 0 ? 
                   "One warm summer evening, you notice a twinkling ice cream cart on your street. As you approach, a swirl of sparkles surrounds you, and suddenly you're pulled into a magical ice cream wonderland!" 
