@@ -9,49 +9,49 @@ const Quiz = () => {
 
   const questions = [
     {
-      question: "Upon being sucked into the ice cream cart, you first:",
+      question: "Upon being sucked into the ice cream cart, you first do this:",
       answers: [
-        { text: "Take a moment to observe the swirling colors and fantastic ice cream architecture around you", type: "I" },
-        { text: "You spot a weird little guy! Call out \"Hello! Can you help me!?\"", type: "E" }
+        { text: "Take a moment to observe the swirling colors and fantastic ice cream architecture around you!", type: "I" },
+        { text: "You spot a weird little guy! You call out: \"Hello! Can you help me!?\"", type: "E" }
       ]
     },
     {
       question: "A group of sprinkle sprites come up to you and invite you to join their ice cream social! You:",
       answers: [
-        { text: "Jump right in and start mixing toppings with them", type: "E" },
-        { text: "Thank them but prefer to watch their sprinkle-making first", type: "I" }
+        { text: "Jump right in and start mixing toppings with them! It's a mess but you have fun!", type: "E" },
+        { text: "Thank them but prefer to watch their sprinkle-making first. They look so cute!", type: "I" }
       ]
     },
     {
-      question: "After the social, the sprites give you a map made of chocolate syrup. You:",
+      question: "After the social, the sprites give you a map made of chocolate syrup. You think:",
       answers: [
         { text: "Follow it to see where it leads! Obviously!", type: "S" },
-        { text: "For some reason the map looks like it has a cute ice cream shape!", type: "N" }
+        { text: "For some reason the map looks like it has a cute ice cream shape! This must really be an ice cream land!", type: "N" }
       ]
     },
     {
-      question: "You make it to the ice cream kingdom! A crying chocolate chip cookie approaches you. You:",
+      question: "You make it to the ice cream kingdom! A crying chocolate chip cookie approaches you. You think:",
       answers: [
         { text: "Surely their parent is around? Why are they crying?", type: "T" },
-        { text: "Comfort them and make sure they feel OK", type: "F" }
+        { text: "Comfort them and make sure they feel OK!", type: "F" }
       ]
     },
     {
       question: "Oh no! The ice cream kingdom's clock is melting! You:",
       answers: [
         { text: "Make a plan to fix it before everything melts. Time to be a hero!", type: "J" },
-        { text: "Maybe melting time is more fun anyway. No more obligations!", type: "P" }
+        { text: "Convince the other citizens that maybe melting time is more fun anyway. No more obligations!", type: "P" }
       ]
     },
     {
       question: "After the disaster, You discover you can now create ice cream with your thoughts! You:",
       answers: [
         { text: "Try different flavor combinations! Strawberry and lemon might be yummy...", type: "S" },
-        { text: "Let your imagination run wild with impossible flavors. Wasabi flavored ice cream?", type: "N" }
+        { text: "Let your imagination run wild with impossible flavors! Wasabi flavored ice cream?", type: "N" }
       ]
     },
     {
-      question: "While playing with your newfound powers, a sugar cone bird family is building a nest. You think to yourself:",
+      question: "While playing with your newfound powers, you see a sugar cone bird family is building a nest. You think to yourself:",
       answers: [
         { text: "Can their construction hold them up? They seem heavy...", type: "T" },
         { text: "How sweet and caring they are with each other!", type: "F" }
@@ -67,22 +67,22 @@ const Quiz = () => {
     {
       question: "The Ice Cream Queen would like to thank you for your involvement with her citizens. When meeting the Ice Cream Queen, you:",
       answers: [
-        { text: "Compliment her beautifully crafted ice cream castle and detailed designs", type: "S" },
-        { text: "Describe how you think her kingdom could grow into a dreamy frozen utopia", type: "N" }
+        { text: "Compliment her beautiful ice cream castle and tell her about your experience so far", type: "S" },
+        { text: "Describe how you think her kingdom could grow into a dreamy frozen utopia! You would love to be her assistant!", type: "N" }
       ]
     },
     {
       question: "She invites you to the royal ice cream feast, which is about to begin! You:",
       answers: [
-        { text: "Be a helpful guest and organize the seating arrangement and menu! These flavors look good together...", type: "J" },
-        { text: "Sample different treats as they appear! Wait... what do ice creams eat?? Other ice creams??", type: "P" }
+        { text: "Be helpful and organize the seating and menu! These flavors look good together...", type: "J" },
+        { text: "Sample different treats as they appear! Wait... what do ice creams eat??", type: "P" }
       ]
     },
     {
       question: "While exploring the feast, you find yourself in a room of dancing ice cream scoops. You:",
       answers: [
-        { text: "Join the dance party right away!", type: "E" },
-        { text: "Watch the beautiful dance from afar", type: "I" }
+        { text: "Join the dance party right away! Party time!", type: "E" },
+        { text: "Watch the beautiful dance from afar. Their dance looks complicated and lovely!", type: "I" }
       ]
     },
     {
