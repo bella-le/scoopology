@@ -12,39 +12,39 @@ const Quiz = () => {
       question: "Upon being sucked into the ice cream cart, you first:",
       answers: [
         { text: "Take a moment to observe the swirling colors and fantastic ice cream architecture around you", type: "I" },
-        { text: "Call out \"Hello! Is there anyone here?\"", type: "E" }
+        { text: "You spot a weird little guy! Call out \"Hello! Can you help me!?\"", type: "E" }
       ]
     },
     {
-      question: "A group of sprinkle sprites invites you to join their ice cream social. You:",
+      question: "A group of sprinkle sprites invites you to join their ice cream social! You:",
       answers: [
         { text: "Jump right in and start mixing toppings with them", type: "E" },
         { text: "Thank them but prefer to watch their sprinkle-making first", type: "I" }
       ]
     },
     {
-      question: "You discover a map made of chocolate syrup. You:",
+      question: "After the social, the sprites give you a map made of chocolate syrup. You:",
       answers: [
-        { text: "Follow it to see where it leads!", type: "S" },
-        { text: "Imagine all the possible destinations it could reveal - it could go to anywhere!", type: "N" }
+        { text: "Follow it to see where it leads! Obviously!", type: "S" },
+        { text: "For some reason the map looks like it has a cute ice cream shape!", type: "N" }
       ]
     },
     {
-      question: "A crying chocolate chip cookie approaches you. You:",
+      question: "You make it to the ice cream kingdom! A crying chocolate chip cookie approaches you. You:",
       answers: [
-        { text: "Surely their parent is around?", type: "T" },
-        { text: "Comfort it and make sure they feel OK", type: "F" }
+        { text: "Surely their parent is around? Why are they crying?", type: "T" },
+        { text: "Comfort them and make sure they feel OK", type: "F" }
       ]
     },
     {
-      question: "The ice cream kingdom's clock is melting! You:",
+      question: "Oh no! The ice cream kingdom's clock is melting! You:",
       answers: [
         { text: "Make a plan to fix it before everything melts. Time to be a hero!", type: "J" },
-        { text: "Maybe melting time is more fun anyway", type: "P" }
+        { text: "Maybe melting time is more fun anyway. No more obligations!", type: "P" }
       ]
     },
     {
-      question: "You discover you can create ice cream with your thoughts! You:",
+      question: "After the disaster, You discover you can now create ice cream with your thoughts! You:",
       answers: [
         { text: "Try different flavor combinations! Strawberry and lemon might be yummy...", type: "S" },
         { text: "Let your imagination run wild with impossible flavors. Wasabi?", type: "N" }
@@ -53,7 +53,7 @@ const Quiz = () => {
     {
       question: "A sugar cone bird family is building a nest. You think to yourself:",
       answers: [
-        { text: "Can their construction hold them up? They seem heavy", type: "T" },
+        { text: "Can their construction hold them up? They seem heavy...", type: "T" },
         { text: "How sweet and caring they are with each other!", type: "F" }
       ]
     },
@@ -65,14 +65,14 @@ const Quiz = () => {
       ]
     },
     {
-      question: "When meeting the Ice Cream Queen, you:",
+      question: "The Ice Cream Queen would like to thank you for your involvement with her citizens. When meeting the Ice Cream Queen, you:",
       answers: [
         { text: "Compliment her beautifully crafted ice cream castle and detailed designs", type: "S" },
         { text: "Describe how you think her kingdom could grow into a dreamy frozen utopia", type: "N" }
       ]
     },
     {
-      question: "The royal ice cream feast is about to begin! You:",
+      question: "She invites you to the royal ice cream feast, which is about to begin! You:",
       answers: [
         { text: "Help organize the seating arrangement and menu", type: "J" },
         { text: "Sample different treats as they appear!", type: "P" }
