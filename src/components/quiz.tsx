@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [userAnswers, setUserAnswers] = useState([]);
+  const [userAnswers, setUserAnswers] = useState<string[]>([]); // Add type here
   const [showResults, setShowResults] = useState(false);
 
   const questions = [
@@ -95,7 +95,7 @@ const Quiz = () => {
   ];
 
   const calculatePersonality = () => {
-    const counts = userAnswers.reduce((acc, type) => {
+    const counts = userAnswers.reduce((acc: { [key: string]: number }, type) => {
       acc[type] = (acc[type] || 0) + 1;
       return acc;
     }, {});
@@ -108,9 +108,9 @@ const Quiz = () => {
     ].join('');
 
     return personality;
-  };
+};
 
-  const handleAnswer = (type) => {
+  const handleAnswer = (type: string) => {
     const newAnswers = [...userAnswers, type];
     setUserAnswers(newAnswers);
 
