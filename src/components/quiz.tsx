@@ -12,83 +12,83 @@ const Quiz = () => {
       question: "Upon being sucked into the ice cream cart, you first:",
       answers: [
         { text: "Take a moment to observe the swirling colors and fantastic ice cream architecture around you", type: "I" },
-        { text: "Call out \"Hello! Is any ice cream vendor here?\"", type: "E" }
+        { text: "Call out \"Hello! Is there anyone here?\"", type: "E" }
       ]
     },
     {
       question: "A group of sprinkle sprites invites you to join their ice cream social. You:",
       answers: [
         { text: "Jump right in and start mixing toppings with them", type: "E" },
-        { text: "Thank them but prefer to watch their sprinkle-making process first", type: "I" }
+        { text: "Thank them but prefer to watch their sprinkle-making first", type: "I" }
       ]
     },
     {
       question: "You discover a map made of chocolate syrup. You:",
       answers: [
-        { text: "Follow it precisely to see where it leads", type: "S" },
-        { text: "Imagine all the possible destinations it could reveal", type: "N" }
+        { text: "Follow it to see where it leads!", type: "S" },
+        { text: "Imagine all the possible destinations it could reveal - it could go to anywhere!", type: "N" }
       ]
     },
     {
       question: "A crying chocolate chip cookie approaches you. You:",
       answers: [
-        { text: "Analyze why it might be crying and suggest solutions", type: "T" },
-        { text: "Comfort it and ask how it's feeling", type: "F" }
+        { text: "Surely their parent is around?", type: "T" },
+        { text: "Comfort it and make sure they feel OK", type: "F" }
       ]
     },
     {
       question: "The ice cream kingdom's clock is melting! You:",
       answers: [
-        { text: "Make a detailed plan to fix it before everything melts", type: "J" },
-        { text: "Go with the flow – maybe melting time is more fun anyway", type: "P" }
+        { text: "Make a plan to fix it before everything melts. Time to be a hero!", type: "J" },
+        { text: "Maybe melting time is more fun anyway", type: "P" }
       ]
     },
     {
       question: "You discover you can create ice cream with your thoughts! You:",
       answers: [
-        { text: "Systematically test different flavor combinations", type: "S" },
-        { text: "Let your imagination run wild with impossible flavors", type: "N" }
+        { text: "Try different flavor combinations! Strawberry and lemon might be yummy...", type: "S" },
+        { text: "Let your imagination run wild with impossible flavors. Wasabi?", type: "N" }
       ]
     },
     {
-      question: "Sugar cone birds are building a nest. You:",
+      question: "A sugar cone bird family is building a nest. You think to yourself:",
       answers: [
-        { text: "Consider the engineering principles of their construction", type: "T" },
-        { text: "Marvel at how sweet and caring they are with each other", type: "F" }
+        { text: "Can their construction hold them up? They seem heavy", type: "T" },
+        { text: "How sweet and caring they are with each other!", type: "F" }
       ]
     },
     {
-      question: "A vanilla bean fairy appears with a riddle. You:",
+      question: "A vanilla bean fairy appears with a riddle. 'I am sweet but can turn bitter. What am I?' You:",
       answers: [
-        { text: "Try to solve it using logic and previous clues", type: "T" },
-        { text: "Trust your gut feeling about the answer", type: "F" }
+        { text: "Sugar, of course. It's a chemical balance!", type: "T" },
+        { text: "Kindness! Sweetness of the heart!", type: "F" }
       ]
     },
     {
       question: "When meeting the Ice Cream Queen, you:",
       answers: [
-        { text: "Share your logical observations about her kingdom", type: "S" },
-        { text: "Tell her about all the magical possibilities you envision", type: "N" }
+        { text: "Compliment her beautifully crafted ice cream castle and detailed designs", type: "S" },
+        { text: "Describe how you think her kingdom could grow into a dreamy frozen utopia", type: "N" }
       ]
     },
     {
       question: "The royal ice cream feast is about to begin! You:",
       answers: [
         { text: "Help organize the seating arrangement and menu", type: "J" },
-        { text: "Spontaneously sample different treats as they appear", type: "P" }
+        { text: "Sample different treats as they appear!", type: "P" }
       ]
     },
     {
       question: "You find yourself in a room of dancing ice cream scoops. You:",
       answers: [
         { text: "Join the dance party right away!", type: "E" },
-        { text: "Watch the beautiful dance from a cozy corner", type: "I" }
+        { text: "Watch the beautiful dance from afar", type: "I" }
       ]
     },
     {
       question: "As the dream starts to fade, you:",
       answers: [
-        { text: "Quick, write down everything you learned!", type: "J" },
+        { text: "Try to capture every detail before it slips away. You want to remember this forever", type: "J" },
         { text: "Let the experience wash over you like melting ice cream", type: "P" }
       ]
     }
@@ -165,7 +165,7 @@ const Quiz = () => {
               </h2>
               <div className="mb-6">
                 <img 
-                  src={`/scoopology/mbti-images/${calculatePersonality()}.jpg`}
+                  src={`/scoopology/mbti-images/${calculatePersonality()}.png`}
                   alt={`Ice cream personality ${calculatePersonality()}`}
                   className="rounded-lg mx-auto shadow-lg"
                 />
