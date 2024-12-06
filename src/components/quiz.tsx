@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<string[]>([]); // Add type here
+  const [userAnswers, setUserAnswers] = useState<string[]>([]);
   const [showResults, setShowResults] = useState(false);
 
   const questions = [
@@ -16,7 +16,7 @@ const Quiz = () => {
       ]
     },
     {
-      question: "A group of sprinkle sprites invites you to join their ice cream social! You:",
+      question: "A group of sprinkle sprites come up to you and invite you to join their ice cream social! You:",
       answers: [
         { text: "Jump right in and start mixing toppings with them", type: "E" },
         { text: "Thank them but prefer to watch their sprinkle-making first", type: "I" }
@@ -47,18 +47,18 @@ const Quiz = () => {
       question: "After the disaster, You discover you can now create ice cream with your thoughts! You:",
       answers: [
         { text: "Try different flavor combinations! Strawberry and lemon might be yummy...", type: "S" },
-        { text: "Let your imagination run wild with impossible flavors. Wasabi?", type: "N" }
+        { text: "Let your imagination run wild with impossible flavors. Wasabi flavored ice cream?", type: "N" }
       ]
     },
     {
-      question: "A sugar cone bird family is building a nest. You think to yourself:",
+      question: "While playing with your newfound powers, a sugar cone bird family is building a nest. You think to yourself:",
       answers: [
         { text: "Can their construction hold them up? They seem heavy...", type: "T" },
         { text: "How sweet and caring they are with each other!", type: "F" }
       ]
     },
     {
-      question: "A vanilla bean fairy appears with a riddle. 'I am sweet but can turn bitter. What am I?' You:",
+      question: "A vanilla bean fairy appears suddenly with a riddle! 'I am sweet but can turn bitter. What am I?' You:",
       answers: [
         { text: "Sugar, of course. It's a chemical balance!", type: "T" },
         { text: "Kindness! Sweetness of the heart!", type: "F" }
@@ -74,21 +74,21 @@ const Quiz = () => {
     {
       question: "She invites you to the royal ice cream feast, which is about to begin! You:",
       answers: [
-        { text: "Help organize the seating arrangement and menu", type: "J" },
-        { text: "Sample different treats as they appear!", type: "P" }
+        { text: "Be a helpful guest and organize the seating arrangement and menu! These flavors look good together...", type: "J" },
+        { text: "Sample different treats as they appear! Wait... what do ice creams eat?? Other ice creams??", type: "P" }
       ]
     },
     {
-      question: "You find yourself in a room of dancing ice cream scoops. You:",
+      question: "While exploring the feast, you find yourself in a room of dancing ice cream scoops. You:",
       answers: [
         { text: "Join the dance party right away!", type: "E" },
         { text: "Watch the beautiful dance from afar", type: "I" }
       ]
     },
     {
-      question: "As the dream starts to fade, you:",
+      question: "Suddenly, you feel a strange power coming from within you! As the dream starts to fade, you:",
       answers: [
-        { text: "Try to capture every detail before it slips away. You want to remember this forever", type: "J" },
+        { text: "Try to capture every detail before it slips away. You want to remember this forever~", type: "J" },
         { text: "Let the experience wash over you like melting ice cream", type: "P" }
       ]
     }
