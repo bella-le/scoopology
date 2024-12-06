@@ -128,10 +128,10 @@ const Quiz = () => {
   };
 
   return (
-    <div className="min-h-screen bg-purple-50 py-8 px-4">
+    <div className="min-h-screen bg-[#f5f0e8] py-8 px-4">
       <Card className="max-w-2xl mx-auto">
         <CardHeader>
-          <CardTitle className="text-center text-2xl font-bold text-purple-800">
+          <CardTitle className="text-center text-2xl font-bold text-[#b3a08e]">
             🍦 Scoopology: The Ice Cream Personality Test 🍦
           </CardTitle>
         </CardHeader>
@@ -157,7 +157,7 @@ const Quiz = () => {
                   <button
                     key={index}
                     onClick={() => handleAnswer(answer.type)}
-                    className="w-full p-4 text-left rounded-lg bg-white hover:bg-purple-100 border border-purple-200 transition-colors duration-200"
+                    className="w-full p-4 text-left rounded-lg bg-white hover:bg-[#f0e6d9] border border-[#e6d5c5] transition-colors duration-200"
                   >
                     {answer.text}
                   </button>
@@ -178,7 +178,7 @@ const Quiz = () => {
               </div>
               <button
                 onClick={resetQuiz}
-                className="mt-6 px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200"
+                className="mt-6 px-6 py-2 bg-[#d4c3b3] text-white rounded-lg hover:bg-[#c4b0a0] transition-colors duration-200"
               >
                 Take the test again
               </button>
