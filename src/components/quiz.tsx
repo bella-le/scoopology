@@ -165,7 +165,7 @@ const Quiz = () => {
               </h2>
               <div className="mb-6">
                 <img 
-                  src={`/mbti-images/${calculatePersonality()}.jpg`}
+                  src={`/scoopology/mbti-images/${calculatePersonality()}.jpg`}
                   alt={`Ice cream personality ${calculatePersonality()}`}
                   className="rounded-lg mx-auto shadow-lg"
                 />
